@@ -2,6 +2,7 @@
 
 tunetAuth is a python script to login https://auth4.tsinghua.edu.cn and(or) https://auth6.tsinghua.edu.cn
 this script use selenium firefox headless to login
+
 selenium firefox need geckodriver, you can download from: https://github.com/mozilla/geckodriver/releases, 
 uncompress and put into PATH.
 
