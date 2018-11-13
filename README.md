@@ -24,7 +24,7 @@ tunetAuth will use ~/.TsinghuaNet/netTHUAuth
 
 if you want login in automatically, you can
 ```bash
-(ping -c 1 -W 1 info.tsinghua.edu.cn|| tunetAuth) >/dev/null 2>&1 
+* * * * * (ping -c 1 -W 1 info.tsinghua.edu.cn|| tunetAuth) >/dev/null 2>&1 
 ```
 and add it to crontab
 
