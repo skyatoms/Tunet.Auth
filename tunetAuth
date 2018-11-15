@@ -48,8 +48,8 @@ if __name__ == '__main__':
     if not os.path.exists(os.path.dirname(userinfofilename)):
         os.makedirs(os.path.dirname(userinfofilename))
     if not os.path.exists(userinfofilename):
-        username = input('username')
-        password = input('password')
+        username = input('username: ')
+        password = input('password: ')
         userinfo = {'username': username, 'password': password}
         with open(userinfofilename, 'w') as fd:
             json.dump(userinfo, fd)
